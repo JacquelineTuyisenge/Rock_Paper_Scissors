@@ -1,3 +1,3 @@
 # Rock_Paper_Scissors
-javascript game
+# javascript game
 Andela projects
