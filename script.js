@@ -28,6 +28,7 @@ scissorsButton.addEventListener("click", function () {
 
 function playRound(playerSelection) {
   const computerSelection = getComputerChoice();
+
   const result = determineRoundResult(playerSelection, computerSelection);
   roundResult.textContent = "Round " + round + ": " + result;
 
@@ -50,6 +51,7 @@ function playRound(playerSelection) {
 function determineRoundResult(playerSelection, computerSelection) {
   playerSelection = playerSelection.toLowerCase(); // Convert player's input to lowercase
   computerSelection = computerSelection.toLowerCase(); // Convert computer's choice to lowercase
+
   if (playerSelection === computerSelection) {
     return "It's a tie!";
   } else if (
@@ -81,6 +83,7 @@ function endGame() {
     gameResult.textContent += " It's a tie game!";
   }
 }
+
 function getComputerChoice() {
   const choices = ["Rock", "Paper", "Scissors"];
   const randomIndex = Math.floor(Math.random() * choices.length);
