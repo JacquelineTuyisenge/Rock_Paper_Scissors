@@ -1,4 +1,5 @@
 .container {
+    background-color:darkolivegreen;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,11 +14,11 @@
   .start-button {
     padding: 10px 20px;
     font-size: 18px;
-    background-color: #e9e9e9;
+    background-color: darkgoldenrod;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    color:green;
+    color: black;
   }
   
   .game-area {
@@ -35,14 +36,14 @@
     padding: 10px 20px;
     margin: 0 10px;
     font-size: 18px;
-    background-color: #e9e9e9;
+    background-color: yellowgreen;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
+    cursor:pointer;
   }
   
   .btn:hover {
-    background-color: #ccc;
+    background-color: lightsalmon;
   }
   
   .result {
