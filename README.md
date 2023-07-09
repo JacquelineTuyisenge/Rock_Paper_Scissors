@@ -1,2 +1,3 @@
-# Rock_Parer_Scissors
+# Rock_Paper_Scissors
 javascript game
+Andela projects
